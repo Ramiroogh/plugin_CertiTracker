@@ -1,0 +1,4 @@
+require_once(ABSPATH . 'wp-admin/includes/upgrade.php');: Esta línea de código se encarga de cargar el archivo upgrade.php, que contiene la función dbDelta() necesaria para crear o actualizar tablas de la base de datos en WordPress. ABSPATH es una constante que proporciona la ruta absoluta al directorio raíz de la instalación de WordPress. Al requerir este archivo, aseguramos que la función dbDelta() esté disponible para su uso en nuestro código.
+
+# Importante
+require, nos sirve para importar en el contexto actual, recursos o archivos externos de otros directorios, para luego poder usar los metodos, clases o cualquier tipo
